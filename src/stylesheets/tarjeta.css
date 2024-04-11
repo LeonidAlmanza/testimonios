@@ -1,0 +1,40 @@
+.tarjeta {
+    width: 500px; /* Ancho de la tarjeta */
+    border: 1px solid #ccc; /* Borde de la tarjeta */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para dar profundidad */
+    padding: 20px; /* Espacio interno */
+    margin: 20px; /* Espacio externo */
+    display: flex; /* Flexbox para alinear elementos */
+    flex-direction: row; /* Dirección de los elementos en columna */
+    align-items: center; /* Centrar elementos horizontalmente */
+   }
+   
+   .foto-tarjeta {
+    width: 100px; /* Ancho de la foto */
+    height: 100px; /* Altura de la foto */
+    border-radius: 50%; /* Foto circular */
+    object-fit: cover; /* Asegura que la foto cubra el área sin distorsionarse */
+    margin-bottom: 20px; /* Espacio entre la foto y el contenido */
+   }
+   
+   .contenido-tarjeta {
+    text-align: center; /* Centrar texto */
+   }
+   
+   .nombre {
+    font-size: 18px; /* Tamaño del nombre */
+    font-weight: bold; /* Negrita para el nombre */
+    margin-bottom: 10px; /* Espacio entre el nombre y la profesión */
+   }
+   
+   .profesion {
+    font-size: 16px; /* Tamaño de la profesión */
+    color: #666; /* Color de la profesión */
+    margin-bottom: 10px; /* Espacio entre la profesión y la descripción */
+   }
+   
+   .descripcion {
+    font-size: 14px; /* Tamaño de la descripción */
+    color: #999; /* Color de la descripción */
+   }
