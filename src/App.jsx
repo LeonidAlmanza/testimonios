@@ -1,8 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
 import Tarjeta from './components/tarjeta.jsx';
 
 
@@ -31,6 +27,7 @@ function App() {
   /* Recorrer el Vector para ir llamandolo y motrando la ifnormación en la tarjeta*/
   return (
     <div>
+      <h1>Titulo de la Pagina</h1>
       {datosUsuario.map((data, index) => (
         <Tarjeta nombre={data.nombre} empresa={data.empresa} informacion={data.informacion}/>
         ))}   
