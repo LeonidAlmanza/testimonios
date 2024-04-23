@@ -8,19 +8,19 @@ function App() {
      nombre:'Leonid Almanza', 
      empresa:'Idependiente',
      informacion:'Leonid Almanza ipsum dolor sit amet consectetur adipisicing elit. Quidem aperiam sunt inventore aliquid velit eveniet dolores minima sapiente quibusdam! Corrupti, incidunt distinctio placeat eius iure mollitia tenetur deleniti rem molestiae!',
-     foto:''
+     foto:'./Img/foto4.jpg'
     },
     {
       nombre:'Sarah China en Nigeria', 
       empresa:'Ingeniera de Software ChatDesk',
       informacion:'Sarah China ipsum dolor sit amet consectetur adipisicing elit. Quidem aperiam sunt inventore aliquid velit eveniet dolores minima sapiente quibusdam! Corrupti, incidunt distinctio placeat eius iure mollitia tenetur deleniti rem molestiae!',
-      foto:''
+      foto:'./Img/foto2.jpg'
      },
      {
       nombre:'Emma Bostian en Suecia', 
       empresa:'Ingeniera de Software Spotify',
       informacion:'Emma Bostian ipsum dolor sit amet consectetur adipisicing elit. Quidem aperiam sunt inventore aliquid velit eveniet dolores minima sapiente quibusdam! Corrupti, incidunt distinctio placeat eius iure mollitia tenetur deleniti rem molestiae!',
-      foto:''
+      foto:'./Img/foto3.jpg'
      }
   ]; 
 
@@ -29,7 +29,7 @@ function App() {
     <div>
       <h1>Titulo de la Pagina</h1>
       {datosUsuario.map((data, index) => (
-        <Tarjeta nombre={data.nombre} empresa={data.empresa} informacion={data.informacion}/>
+        <Tarjeta nombre={data.nombre} empresa={data.empresa} informacion={data.informacion} foto={data.foto}/>
         ))}   
      
   </div>

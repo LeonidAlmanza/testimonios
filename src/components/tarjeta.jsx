@@ -5,7 +5,7 @@ function Tarjeta(props){
 
     return(
         <div className="tarjeta">
-            <img src="" alt="Foto de la persona" className="foto-tarjeta"/>
+            <img src={props.foto} alt="Foto de la persona" className="foto-tarjeta"/>
             <div className="contenido-tarjeta">
                 <h2 className="nombre">{props.nombre}</h2>
                 <p className="profesion">{props.empresa}</p>
